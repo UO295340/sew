@@ -163,3 +163,7 @@ video{
 	width: 100%;
 	height: auto;
 }
+
+a.active{
+	background: #050533;
+}
