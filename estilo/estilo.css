@@ -34,12 +34,12 @@ a{
 
 /* Especificidad: 011*/
 a:link{
-	color: #e34234;
+	color: #FDF2F1;
 }
 
 /* Especificidad: 011*/
 a:visited{
-	color: #dcd2cc;
+	color: #F2F1ED;
 }
 
 /* Especificidad: 011*/
