@@ -1,0 +1,38 @@
+/* Natalia Blanco Agudín UO295340*/
+/* Especificidad: 001 */
+body{												
+	color: #000000;	
+	background: #f2f1e8;
+	font-family: Tahoma, sans-serif;	
+	}
+	
+/* Especificidad: 001*/
+header{	
+	color: #f2f1e8;
+	background: #941F14;
+}
+
+/* Especificidad: 001*/
+nav {	
+	/* hereda de header color: #F5F5DC; */
+	background: #0A5570;
+}
+
+/* Especificidad: 001*/
+h1 {												
+	/* hereda de header color: #F5F5DC; */
+	/* hereda de header background: #050533;*/
+	text-transform: uppercase;
+	font-size: 3em;
+	text-decoration: none;
+	padding: 1em;
+	text-align: center;
+}
+
+/* Especificidad: 001*/
+p{
+	/* hereda de body color: #f2f1e8;*/						
+	/* hereda de body background: #0d698b;*/
+	font-family: Helvetica, Arial, sans-serif;
+}
+
