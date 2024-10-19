@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuitos SYSTEM "circuito.dtd">
+<circuitos>
+    <circuito nombre ="José Carlos Pace (Interlagos)">
+        <longitud long="4309" unidades="m"></longitud>
+        <anchura anch="9-15m" unidades="m"></anchura>
+        <fecha2024>03/11/2024</fecha2024>
+        <horaSp>18:00</horaSp>
+        <numVuletas>71</numVuletas>
+        <localidad>Sao Paulo</localidad>
+        <pais>Brasil</pais>
+        <referencias>
+            <referencia pagina="https://www.marca.com/motor/formula1/calendario.html"> Referencia1</referencia>
+            <referencia pagina="https://www.circuitosdecarreras.com/brasil/autodromo-jose-carlos-pace/"> Referencia2</referencia>
+            <referencia pagina="https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace"> Referencia3</referencia>
+        </referencias> 
+        <fotos>
+            <foto nombre="Circuito" ubicacion="Circuito.png">Circuito</foto>
+            <foto nombre="Vista desde Arriba" ubicacion="VistaDesdeArriba.jpg">Vista</foto>
+            <foto nombre="Interlagos" ubicacion="Interlagos.jpg">Interlagos</foto>
+        </fotos> 
+        <videos>
+
+        </videos>
+        <coordenadasGeograficas> </coordenadasGeograficas>
+        <seriePuntos> </seriePuntos> 
+    </circuito>
+</circuitos>

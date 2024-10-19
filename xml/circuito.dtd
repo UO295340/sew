@@ -1,0 +1,29 @@
+<!ELEMENT circuitos (circuito+)>
+<!ELEMENT circuito (longitud, anchura, fecha2024, horaSp, numVuletas, localidad, pais, referencias,fotos, videos,coordenadasGeograficas, seriePuntos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT anchura (#PCDATA)>
+<!ELEMENT fecha2024 (#PCDATA)>
+<!ELEMENT horaSp (#PCDATA)>
+<!ELEMENT numVuletas (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT referencias (#PCDATA)>
+<!ELEMENT fotos (#PCDATA)>
+<!ELEMENT videos (#PCDATA)>
+<!ELEMENT coordenadasGeograficas (#PCDATA)>
+<!ELEMENT seriePuntos (#PCDATA)>
+
+<!ATTLIST circuito nombre CDATA #REQUIRED>
+<!ATTLIST referencias 
+    pagina CDATA #REQUIRED>
+<!ATTLIST fotos
+    nombre CDATA #REQUIRED
+    ubicacion CDATA #REQUIRED>
+<!ATTLIST longitud
+    long CDATA #REQUIRED
+    unidades (metros|kilometros) #REQUIRED>
+
+<!ATTLIST anchura
+    anch CDATA #REQUIRED
+    unidades (metros|kilometros) #REQUIRED>
