@@ -28,30 +28,30 @@ nav {
 }
 
 /* Especificidad: 001 - REFERENCIAS */
-a{
+nav > a{
 	outline: none;
 	text-decoration: none;
 	color: #f2f1e8;
 }
 
 /* Especificidad: 011 - REFERENCIA SIN VISITAR */
-a:link{
+nav > a:link{
 	color: #FCEEEE;
 }
 
 /* Especificidad: 011 - REFERENCIA VISITADA */
-a:visited{
+nav > a:visited{
 	color: #F4F3F0;
 }
 
 /* Especificidad: 011*/
-a:focus{
+nav > a:focus{
 	border-bottom: 1px solid;
 	background: #4A4D4F;
 }
 
 /* Especificidad: 011 */
-a:hover{
+nav > a:hover{
 	border-bottom:1px solid;
 	background: #4A4D4F;
 }
@@ -76,8 +76,6 @@ p a:focus{
 p a:hover{
 	background: #FFFFFF;
 }
-
-
 
 /* Especificidad: 001*/
 h1 {												
@@ -183,7 +181,6 @@ a.active{
 	nav{
 		font-size: 0.75em;
 	}
-	
 	
 	/* Especificidad: 002 - Migas de navegación */
 	body > p{
