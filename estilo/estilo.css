@@ -1,0 +1,342 @@
+/* Natalia Blanco Agudín UO295340*/
+
+/* Especificidad: 001*/
+html{
+	margin: 0; 
+    padding: 0;
+    height: 100%; 
+    width: 100%; 
+}
+
+/* Especificidad: 001*/
+body{												
+	color: #000000;	
+	background: #f2f1e8;
+	font-family: Tahoma, sans-serif;
+	margin: 3rem;
+	padding-bottom: 10rem;
+/*	font-size: 0.75em; */
+	
+}
+
+/* Especificidad: 002 */
+body > p{
+	font-size: 0.75em;
+}
+	
+/* Especificidad: 001 */
+header{	
+	color: #f2f1e8;
+	background: #941F14;
+}
+
+/* Especificidad: 002*/
+header > a{
+	color:#f2f1e8;
+	text-decoration: none;
+}
+
+/* Especificidad: 001 */
+nav {	
+	/* hereda de header color: #F5F5DC; */
+	background: #0A5570;
+	padding:1em;
+}
+
+/* Especificidad: 002 */
+nav > a{
+	outline: none;
+	text-decoration: none;
+	color: #f2f1e8;
+	margin-right: 1rem;
+}
+
+/* Especificidad: 012  */
+nav > a:link {
+	color: #FCEEEE;
+}
+
+/* Especificidad: 012 */
+nav > a:visited{
+	color: #F4F3F0;
+}
+
+/* Especificidad: 012*/
+nav > a:focus{
+	border-bottom: 1px solid;
+	background: #4A4D4F;
+}
+
+/* Especificidad: 012 */
+nav > a:hover{
+	border-bottom:1px solid;
+	background: #4A4D4F;
+}
+
+/* Especificidad: 013 */
+header nav > a.active{
+	background: #050533;
+}
+
+/* Especificidad: 002*/
+p a{
+	color: #000000;
+	text-decoration: underline;
+}
+
+/* Especificidad: 012*/
+p a:visited{
+	color: #4e4f50;
+}
+
+/* Especificidad: 012*/
+p a:focus{
+	background: #FFFFFF;
+}
+
+/* Especificidad: 012*/
+p a:hover{
+	background: #FFFFFF;
+}
+
+/* Especificidad: 001*/
+h1 {												
+	/* hereda de header color: #F5F5DC; */
+	/* hereda de header background: #050533;*/
+	text-transform: uppercase;
+	font-size: 3em;
+	padding: 1em;
+	text-align: center;
+}
+
+/* Especificidad: 002*/
+main > p{
+	/* hereda de body color: #f2f1e8;*/						
+	/* hereda de body background: #0d698b;*/
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Especificidad: 001*/
+ol{
+	list-style-type: upper-roman;
+	list-style-position: inside;
+}
+
+/* Especificidad: 001 */
+ul{
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+/* Especificidad: 002*/
+li,p {
+  line-height: 1.5;
+}
+
+/* Especificidad: 002 */
+dd,dt {
+	line-height: 1.5;
+}
+
+/* Especificidad: 001 */
+dt {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Especificidad: 001 */
+dd {
+	margin-bottom: 1.5rem;
+}
+
+/* Especificidad: 001*/
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	border: 3px solid black;
+}
+
+/* Especificidad: 002*/
+table > caption{
+	margin-bottom:1em;
+}
+
+/* Especificidad: 002*/
+th,td {
+	padding: 1em;
+}
+
+/* Especificidad: 002*/
+tbody td{
+	text-align: center;
+}
+
+/* Especificidad: 002*/
+tfoot th{
+	text-align: center;
+}
+
+/* Especificidad: 001*/
+img{
+	width: 100%;
+	height: auto;
+}
+
+/* Especificidad: 001*/
+video{
+	width: 100%;
+	height: auto;
+}
+
+/* Especificidad: 100*/
+#mapa {
+    width: 80%;
+    height: 70vh;
+	margin: 5vh auto;
+}
+
+/* Especificidad: 101*/
+#mapa:fullscreen {
+    width: 100%;
+    height: 100vh; 
+    margin: 0; 
+}
+
+/* Especificidad: 002*/
+section img {
+    width: 80%;
+    height: 70vh;
+	margin: 5vh auto;
+}
+
+/* Especificidad: 002*/
+section > section {
+    border: 0.2rem dashed #ccc;
+    padding: 2%;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-top: 2rem; 
+}
+
+/* Especificidad: 003*/
+section > section p {
+    color: #555;
+}
+
+/* section > article img {
+    margin-top: 10vh;
+    max-width: 100%;
+} */
+
+/* Especificidad: 002*/
+a button {
+    padding: 2% 5%; /* Padding relativo */
+    font-weight: bold;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: #0A5570;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 2%;
+    width: 80%;
+}
+
+/* Especificidad: 012*/
+a button:hover {
+    background-color: #083f53;
+    transform: translateY(-5%);
+}
+
+/* Media Queries */
+/* Tablets y pantallas medianas */
+@media only screen and (max-width: 1200px) {
+    body {
+        margin: 2rem;
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    nav {
+        padding: 0.5em;
+    }
+
+    nav > a {
+        margin-right: 0.5rem;
+    }
+}
+
+/* Tablets verticales y móviles grandes */
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 1.5rem;
+        font-size: 0.85rem;
+    }
+
+    header {
+        padding: 0.5em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    nav {
+        font-size: 0.9rem;
+    }
+
+    #mapa {
+        width: 90%;
+        height: 50vh;
+    }
+
+    section img {
+        width: 90%;
+    }
+}
+
+/* Móviles pequeños */
+@media only screen and (max-width: 480px) {
+    body {
+        margin: 1rem;
+        padding: 0;
+        font-size: 0.8rem;
+    }
+
+    header {
+        padding: 0.5em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin: 0.5em 0;
+    }
+
+    nav {
+        font-size: 0.8rem;
+    }
+
+    nav > a {
+        margin-right: 0.3rem;
+    }
+
+    #mapa {
+        width: 100%;
+        height: 40vh;
+    }
+
+    section img {
+        width: 100%;
+        margin: 2vh auto;
+    }
+
+    section > section {
+        padding: 1%;
+        margin-top: 1rem;
+    }
+}

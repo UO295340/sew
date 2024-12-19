@@ -1,0 +1,15 @@
+En circuito.xsd hemos cambiado lo siguiente con respecto a circuito.dtd:
+- El tipo del atributo long del elemento longitud pasa a ser float (antes era string)
+- El tipo del atributo anch del elemento anchura pasa a ser float (antes era string)
+- El tipo del elemento fecha2024 pasa a ser date (antes era string)
+- El tipo del elemento horas pasa a ser …
+- El tipo del elemento numVueltas pasa a ser integer (antes era string)
+
+- El elemento referencias tendrá una restricción de mínimo 3 referencia
+- El elemento fotos tendrá una restricción de mínimo 1 foto y máximo 5
+- El elemento fotos tendrá una restricción de mínimo 0 videos y máximo 3
+
+- El tipo del atributo lat del elemento la pasa a ser float (antes era string)
+- El tipo del atributo alt del elemento altitud pasa a ser float (antes era string)
+- El tipo del elemento distancia pasa a ser float (antes era string)
+- El tipo del elemento numeroSector pasa a ser integer (antes era string)

@@ -1,0 +1,76 @@
+<!ELEMENT circuitos (circuito+)>
+<!ELEMENT circuito (longitud, anchura, fecha2024, horaSp, numVuletas, localidad, pais, referencias,fotos, videos,coordenadasGeograficas, tramos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT anchura (#PCDATA)>
+<!ELEMENT fecha2024 (#PCDATA)>
+<!ELEMENT horaSp (#PCDATA)>
+<!ELEMENT numVuletas (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+
+<!ELEMENT fotos (foto+)>
+<!ELEMENT foto (#PCDATA)>
+
+<!ELEMENT videos (video+)>
+<!ELEMENT video (#PCDATA)>
+
+<!ELEMENT coordenadasGeograficas (la, lo, al)>
+<!ELEMENT la (#PCDATA)>
+<!ELEMENT lo (#PCDATA)>
+<!ELEMENT al (#PCDATA)>
+
+<!ELEMENT tramos (tramo+)>
+<!ELEMENT tramo (distancia, coordenadas, numeroSector)>
+
+<!ELEMENT distancia (#PCDATA)>
+<!ELEMENT coordenadas (#PCDATA)>
+<!ELEMENT numeroSector (#PCDATA)>
+
+<!ATTLIST circuito 
+    nombre CDATA #REQUIRED>
+
+<!ATTLIST referencia
+    pagina CDATA #REQUIRED>
+
+<!ATTLIST foto
+    nombre CDATA #REQUIRED
+    ubicacion CDATA #REQUIRED>
+
+<!ATTLIST video
+    nombre CDATA #REQUIRED
+    ubicacion CDATA #REQUIRED>
+
+<!ATTLIST longitud
+    long CDATA #REQUIRED
+    unidades (metros|kilometros) #REQUIRED>
+
+<!ATTLIST anchura
+    anch CDATA #REQUIRED
+    unidades (metros|kilometros) #REQUIRED>
+
+<!ATTLIST la
+    lat CDATA #REQUIRED
+    unidades (metros|kilometros) #REQUIRED>
+
+<!ATTLIST lo
+    long CDATA #REQUIRED
+    unidades (metros|kilometros) #REQUIRED>
+
+<!ATTLIST al
+    alt CDATA #REQUIRED
+    unidades (metros|kilometros) #REQUIRED>
+
+<!ATTLIST tramo 
+    nombre CDATA #REQUIRED>
+
+<!ATTLIST distancia
+    unidades (metros|kilometros) #REQUIRED>
+
+<!ATTLIST coordenadas
+    latitud CDATA #REQUIRED
+    longitud CDATA #REQUIRED
+    altitud CDATA #REQUIRED>

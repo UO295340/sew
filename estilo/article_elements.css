@@ -1,0 +1,122 @@
+/* Especificidad: 001 */
+section {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    gap: 1rem;       
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* Especificidad: 002 */
+section article {
+    background: #ffffff;
+    border-radius: 1rem; 
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    padding: 1rem;                                   
+    text-align: center;                              
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 1.5rem;                           
+}
+
+/* Especificidad: 012 */
+section article:hover {
+    transform: scale(1.05);
+}
+
+/* Especificidad: 003 */
+section article img {
+    width: 6rem;
+    height: 6rem;
+    margin: 1rem 0;
+}
+
+/* Especificidad: 003 */
+section article h2 {
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
+    color: #333333;
+}
+
+/* Especificidad: 003 */
+section article p {
+    font-size: 1rem;
+    margin: 0.3125rem 0;
+    color: #555555;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 1rem;
+        gap: 0.5rem;
+        flex-direction: column;
+    }
+
+    section article {
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+
+    section article h2 {
+        font-size: 1rem;
+    }
+
+    section article p {
+        font-size: 0.875rem;
+    }
+
+    section article img {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    section {
+        gap: 1rem;
+        flex-direction: row;
+    }
+
+    section article {
+        padding: 1.25rem;
+    }
+
+    section article h2 {
+        font-size: 1.125rem;
+    }
+
+    section article p {
+        font-size: 1rem;
+    }
+
+    section article img {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    section {
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+
+    section article {
+        width: 30%;
+        margin-bottom: 2rem;
+    }
+
+    section article h2 {
+        font-size: 1.25rem;
+    }
+
+    section article p {
+        font-size: 1.125rem;
+    }
+
+    section article img {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+

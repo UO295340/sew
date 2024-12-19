@@ -1,0 +1,68 @@
+/* Especificidad: 001 */
+h3{
+    color: #0A5570;
+    font-size:1.2rem;
+}
+
+/* Especificidad: 001 */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Especificidad: 001 */
+article{
+    background-color: #ffff;
+    border-radius: 0.625rem;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%;
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Especificidad: 011 */
+article p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Especificidad: 001 */
+button {
+    background-color: #0A5570;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.3125rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    max-width: 12rem;
+}
+
+
+/* Especificidad: 011 */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Especificidad: 001 */
+form {
+    margin: 2em 0;
+}
+
+/* Especificidad: 001
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-size: 1rem;
+} */
+

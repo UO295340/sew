@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuitos SYSTEM "circuito.dtd">
+<circuitos>
+    <circuito nombre ="José Carlos Pace (Interlagos)">
+        <longitud long="4309" unidades="metros"></longitud>
+        <anchura anch="15" unidades="metros"></anchura>
+        <fecha2024>03-11-2024</fecha2024>
+        <horaSp>18:00</horaSp>
+        <numVuletas>71</numVuletas>
+        <localidad>Sao Paulo</localidad>
+        <pais>Brasil</pais>
+        
+        <referencias>
+            <referencia pagina="https://www.marca.com/motor/formula1/calendario.html"></referencia>
+            <referencia pagina="https://www.circuitosdecarreras.com/brasil/autodromo-jose-carlos-pace/"></referencia>
+            <referencia pagina="https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace"></referencia>
+        </referencias> 
+
+        <fotos>
+            <foto nombre="Circuito" ubicacion="Circuito.png"></foto>
+            <foto nombre="Vista desde Arriba" ubicacion="VistaDesdeArriba.jpg"></foto>
+            <foto nombre="Interlagos" ubicacion="Interlagos.jpg"></foto>
+        </fotos> 
+
+        <videos>
+            <video nombre="Interlagos" ubicacion="Interlagos.mp4"></video>
+        </videos>
+
+        <coordenadasGeograficas> 
+            <la lat="-23.7037340" unidades="metros"> </la>
+            <lo long="-46.6999471" unidades="metros"> </lo>
+            <al alt="778.4172190" unidades="metros"></al>
+        </coordenadasGeograficas>
+
+        <tramos> 
+            <tramo nombre="Tramo 1">
+                <distancia unidades="metros">220</distancia>
+                <coordenadas latitud="-23.7056595" longitud="-46.6993936" altitud="782.1439810"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 2">
+                <distancia unidades="metros">46.27</distancia>
+                <coordenadas latitud="-23.7060678" longitud="-46.6992767" altitud="782.3595221"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 3">
+                <distancia unidades="metros">33.82</distancia>
+                <coordenadas latitud="-23.7063232" longitud="-46.6990934" altitud="781.7232069"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 4">
+                <distancia unidades="metros">21.34</distancia>
+                <coordenadas latitud="-23.7064209" longitud="-46.6989130" altitud="780.3127998"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 5">
+                <distancia unidades="metros">20.09</distancia>
+                <coordenadas latitud="-23.7063857" longitud="-46.6987205" altitud="778.0711209"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 6">
+                <distancia unidades="metros">51.63</distancia>
+                <coordenadas latitud="-23.7060650" longitud="-46.6983570" altitud="771.5233073"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 7">
+                <distancia unidades="metros">21.13</distancia>
+                <coordenadas latitud="-23.7059440" longitud="-46.6981983" altitud="769.4932122"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 8">
+                <distancia unidades="metros">25.71</distancia>
+                <coordenadas latitud="-23.7059703" longitud="-46.6979506" altitud="767.6049026"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 9">
+                <distancia unidades="metros">45.72</distancia>
+                <coordenadas latitud="-23.7061834" longitud="-46.6975672" altitud="765.6922969"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 10">
+                <distancia unidades="metros">37.14</distancia>
+                <coordenadas latitud="-23.7062829" longitud="-46.6972178" altitud="764.7395468"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 11">
+                <distancia unidades="metros">46.38</distancia>
+                <coordenadas latitud="-23.7062702" longitud="-46.6967620" altitud="764.1537989"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 12">
+                <distancia unidades="metros">41.63</distancia>
+                <coordenadas latitud="-23.7061397" longitud="-46.6963827" altitud="763.5263932"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 13">
+                <distancia unidades="metros">41.04</distancia>
+                <coordenadas latitud="-23.7059280" longitud="-46.6960559" altitud="763.0396661"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 14">
+                <distancia unidades="metros">36.8</distancia>
+                <coordenadas latitud="-23.7056826" longitud="-46.6958179" altitud="762.5813647"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 15">
+                <distancia unidades="metros">80.56</distancia>
+                <coordenadas latitud="-23.7050020" longitud="-46.6955355" altitud="760.4970765"></coordenadas>
+                <numeroSector>1</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 16">
+                <distancia unidades="metros">587.52</distancia>
+                <coordenadas latitud="-23.6998838" longitud="-46.6940396" altitud="748.1549288"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 17">
+                <distancia unidades="metros">27.36</distancia>
+                <coordenadas latitud="-23.6996444" longitud="-46.6940985" altitud="746.8740613"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 18">
+                <distancia unidades="metros">28.15</distancia>
+                <coordenadas latitud="-23.6994944" longitud="-46.6943109" altitud="745.4807604"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 19">
+                <distancia unidades="metros">106.33</distancia>
+                <coordenadas latitud="-23.6993173" longitud="-46.6953383" altitud="739.6429255"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 20">
+                <distancia unidades="metros">40.66</distancia>
+                <coordenadas latitud="-23.6993653" longitud="-46.6957277" altitud="739.8745815"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 21">
+                <distancia unidades="metros">47.32</distancia>
+                <coordenadas latitud="-23.6995732" longitud="-46.6961406" altitud="740.1175038"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 22">
+                <distancia unidades="metros">59.13</distancia>
+                <coordenadas latitud="-23.6999757" longitud="-46.6965260" altitud="740.4527894"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 23">
+                <distancia unidades="metros">310.87</distancia>
+                <coordenadas latitud="-23.7022503" longitud="-46.6983200" altitud="755.0790668"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 24">
+                <distancia unidades="metros">39.19</distancia>
+                <coordenadas latitud="-23.7023737" longitud="-46.6986757" altitud="756.4573481"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 25">
+                <distancia unidades="metros">52.62</distancia>
+                <coordenadas latitud="-23.7023296" longitud="-46.6991951" altitud="759.3833202"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 26">
+                <distancia unidades="metros">44.02</distancia>
+                <coordenadas latitud="-23.7021526" longitud="-46.6995812" altitud="762.3606320"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 27">
+                <distancia unidades="metros">29.07</distancia>
+                <coordenadas latitud="-23.7019364" longitud="-46.6997531" altitud="763.7073970"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 28">
+                <distancia unidades="metros">44.08</distancia>
+                <coordenadas latitud="-23.7015534" longitud="-46.6998440" altitud="764.7999461"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 29">
+                <distancia unidades="metros">86.91</distancia>
+                <coordenadas latitud="-23.7007837" longitud="-46.6999804" altitud="765.3643961"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 30">
+                <distancia unidades="metros">26.84</distancia>
+                <coordenadas latitud="-23.7005566" longitud="-46.6999000" altitud="765.2178449"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 31">
+                <distancia unidades="metros">22.13</distancia>
+                <coordenadas latitud="-23.7004907" longitud="-46.6996951" altitud="764.6851976"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 32">
+                <distancia unidades="metros">39.8</distancia>
+                <coordenadas latitud="-23.7006585" longitud="-46.6993325" altitud="762.8454955"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 33">
+                <distancia unidades="metros">28.42</distancia>
+                <coordenadas latitud="-23.7007953" longitud="-46.6991135" altitud="761.1596048"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 34">
+                <distancia unidades="metros">35.48</distancia>
+                <coordenadas latitud="-23.7007389" longitud="-46.6987575" altitud="758.9258307"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 35">
+                <distancia unidades="metros">32.85</distancia>
+                <coordenadas latitud="-23.7004922" longitud="-46.6985817" altitud="757.3777654"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 36">
+                <distancia unidades="metros">32.95</distancia>
+                <coordenadas latitud="-23.7002063" longitud="-46.6986301" altitud="757.3506946"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 37">
+                <distancia unidades="metros">126.86</distancia>
+                <coordenadas latitud="-23.6993440" longitud="-46.6994004" altitud="762.7415048"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 38">
+                <distancia unidades="metros">81.88</distancia>
+                <coordenadas latitud="-23.6986240" longitud="-46.6996127" altitud="765.9377275"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 39">
+                <distancia unidades="metros">21.55</distancia>
+                <coordenadas latitud="-23.6984530" longitud="-46.6995267" altitud="766.1679065"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 40">
+                <distancia unidades="metros">22.03</distancia>
+                <coordenadas latitud="-23.6983988" longitud="-46.6993132" altitud="766.7014622"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 41">
+                <distancia unidades="metros">63.47</distancia>
+                <coordenadas latitud="-23.6987996" longitud="-46.6988681" altitud="764.3313057"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 42">
+                <distancia unidades="metros">61.01</distancia>
+                <coordenadas latitud="-23.6992118" longitud="-46.6984556" altitud="761.7543832"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 43">
+                <distancia unidades="metros">47</distancia>
+                <coordenadas latitud="-23.6993798" longitud="-46.6980327" altitud="758.7580924"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 44">
+                <distancia unidades="metros">51.75</distancia>
+                <coordenadas latitud="-23.6993635" longitud="-46.6975339" altitud="754.4570212"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 45">
+                <distancia unidades="metros">63.13</distancia>
+                <coordenadas latitud="-23.6990129" longitud="-46.6970555" altitud="748.9289566"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 46">
+                <distancia unidades="metros">184.23</distancia>
+                <coordenadas latitud="-23.6976049" longitud="-46.6961075" altitud="750.4001491"></coordenadas>
+                <numeroSector>2</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 47">
+                <distancia unidades="metros">23.42</distancia>
+                <coordenadas latitud="-23.6974052" longitud="-46.6961573" altitud="750.2625718"></coordenadas>
+                <numeroSector>3</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 48">
+                <distancia unidades="metros">92</distancia>
+                <coordenadas latitud="-23.6970663" longitud="-46.6969588" altitud="755.7813535"></coordenadas>
+                <numeroSector>3</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 49">
+                <distancia unidades="metros">39.31</distancia>
+                <coordenadas latitud="-23.6969869" longitud="-46.6973277" altitud="758.7761263"></coordenadas>
+                <numeroSector>3</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 50">
+                <distancia unidades="metros">123.98</distancia>
+                <coordenadas latitud="-23.6972089" longitud="-46.6985228" altitud="770.4793101"></coordenadas>
+                <numeroSector>3</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 51">
+                <distancia unidades="metros">110.41</distancia>
+                <coordenadas latitud="-23.6976946" longitud="-46.6994811" altitud="777.6214745"></coordenadas>
+                <numeroSector>3</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 52">
+                <distancia unidades="metros">58.91</distancia>
+                <coordenadas latitud="-23.6981175" longitud="-46.6998439" altitud="779.5924390"></coordenadas>
+                <numeroSector>3</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 53">
+                <distancia unidades="metros">263.74</distancia>
+                <coordenadas latitud="-23.7004180" longitud="-46.7005029" altitud="777.7493210"></coordenadas>
+                <numeroSector>3</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 54">
+                <distancia unidades="metros">99.57</distancia>
+                <coordenadas latitud="-23.7013211" longitud="-46.7005516" altitud="776.8244717"></coordenadas>
+                <numeroSector>3</numeroSector>
+            </tramo>
+
+            <tramo nombre="Tramo 55">
+                <distancia unidades="metros">257.27</distancia>
+                <coordenadas latitud="-23.7037340" longitud="-46.6999471" altitud="778.4172190"></coordenadas>
+                <numeroSector>3</numeroSector>
+            </tramo>
+
+        </tramos>
+            
+    </circuito>
+
+</circuitos>

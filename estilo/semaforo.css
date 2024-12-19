@@ -1,0 +1,134 @@
+/* Especificidad: 001*/
+main {
+    display: grid;
+    grid-template-rows: auto min-content auto auto; /* 4 filas: encabezado, luces, botones, tiempo */
+    gap: 0.2rem;
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
+}
+
+/* Especificidad: 001 - 002*/
+h2, 
+main >p{
+    text-align: center;
+    margin: 0;  
+}
+
+/* Especificidad: 002*/
+main > div {
+    max-width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas para las luces */
+    grid-row: 2; /* Pone las luces en la segunda fila */
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+/* Especificidad: 003*/
+main > div > div {
+    background-color: #0007; /* Establece el color de fondo de la luz como negro con opacidad (transparente) */
+    border: 0.3rem solid #000; /* Establece un borde negro sólido de 2 píxeles alrededor de cada luz */
+    border-radius: 50%; /* Hace que las esquinas del div sean redondeadas, creando un círculo perfecto */
+    aspect-ratio: 1; /* Define la relación de aspecto 1:1, asegurando que las celdas sean cuadradas */
+    width: 5rem; /* La luz ocupa el 100% del ancho disponible dentro de su celda (lo que la hace ajustarse a la cuadrícula) */
+    height: auto; /* La altura de la luz ocupa el 100% de la altura disponible dentro de su celda */
+}
+
+/* Especificidad: 001*/
+section{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    grid-row: 3;
+}
+
+/* Especificidad: 001*/
+button {
+    padding: 0.5rem 2rem; /* Aplica un relleno de 0.5rem en el eje vertical y 1rem en el eje horizontal */
+    font-size: 0.9rem; /* Establece el tamaño de la fuente en 1rem (relativo al tamaño de la fuente raíz) */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón para indicar que es interactivo */
+    border: 0.1rem solid #000 ; /* Elimina el borde predeterminado del botón */
+    border-radius: 0.2rem; /* Aplica bordes redondeados al botón */
+}
+
+/* Especificidad: 013*/
+main.load > div > div{
+    animation: lightOn 2s forwards;
+}
+
+/* Especificidad: 013*/
+main.unload > div > div{
+    animation: out 0.1s forwards;
+}
+
+@keyframes lightOn{
+    from {background-color: #0007;}
+    to {background-color: red;}
+}
+
+@keyframes out{
+    from {background-color: red;}
+    to {background-color: #0007;}
+}
+
+/* Especificidad: 113*/
+main.load > div > div:first-of-type{
+    animation-name: lightOn;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+/* Especificidad: 113*/
+main.load > div > div:nth-child(2){
+    animation-name: lightOn;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+/* Especificidad: 113*/
+main.load > div > div:nth-child(3){
+    animation-name: lightOn;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+/* Especificidad: 113*/
+main.load > div > div:nth-child(4){
+    animation-name: lightOn;
+    animation-duration: 0.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+/* Especificidad: 113*/
+main.unload > div > div:first-of-type{
+    animation-name: out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+/* Especificidad: 113*/
+main.unload > div > div:nth-child(2){
+    animation-name: out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+/* Especificidad: 113*/
+main.unload > div > div:nth-child(3){
+    animation-name: out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+/* Especificidad: 113*/
+main.unload > div > div:nth-child(4){
+    animation-name: out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}

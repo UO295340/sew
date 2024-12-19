@@ -1,0 +1,34 @@
+/*ESPECIFICIDAD: 001*/
+header{
+	display: flex;
+	flex-direction: column;
+}
+
+/*ESPECIFICIDAD: 001*/
+nav{
+	display: flex;
+}
+
+/*ESPECIFICIDAD: 001*/
+a{
+	flex:1;
+}
+
+/* Para dispositivos con pantallas medianas (tabletas) */
+@media (min-width: 600px) {
+	nav {
+		flex-direction: row; /* Cambia a una fila en pantallas más grandes */
+	}
+}
+
+/* Para dispositivos con pantallas grandes (escritorios) */
+@media (min-width: 1024px) {
+	header {
+		flex-direction: column; /* Encabezado horizontal */
+		justify-content: space-between;
+	}
+
+	nav {
+		flex: 2; /* Ajusta el espacio del menú de navegación */
+	}
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+
+    <!-- Título-->
+    <title>Juegos F1</title>
+
+    <!-- Nombre del autor -->
+    <meta name="author" content="Natalia Blanco Agudín" />
+
+    <!-- Descripción del documento -->
+    <meta name="description" content="Documento para utilizar en otros módulos de la asignatura" />
+
+    <!-- Palabras claves del sitio -->
+    <meta name="keywords" content="F1" />
+
+    <!-- Ventana gráfica -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/memoria.css" />
+
+    <!-- Favicon-->
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" />
+
+    <!-- Incluir el archivo memoria.js-->
+    <script src="js/memoria.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Datos con el contenidos que aparece en el navegador -->
+        <a href="index.html" title="Inicio F1Desktop">
+            <h1>F1 Desktop</h1>
+        </a>
+        <!-- Menú principal de navegación -->
+        <nav>
+            <a href="index.html" title="Inicio F1Desktop"> Inicio</a>
+            <a href="piloto.html" title="Piloto F1"> Piloto</a>
+            <a href="noticias.html" title="Noticias F1"> Noticias</a>
+            <a href="calendario.html" title="Calendario F1"> Calendario</a>
+            <a href="meteorologia.html" title="Metereología"> Metereología</a>
+            <a href="circuito.html" title="Circuitos F1"> Circuitos</a>
+            <a href="viajes.php" title="Viajes"> Viajes</a>
+            <a href="juegos.html" title="Juegos" class="active"> Juegos</a>
+
+        </nav>
+
+        <nav>
+            <a href="memoria.html" title="Juego de cartas" class="active"> Juego de memoria</a>
+            <a href="semaforo.php" title="Juego del semaforo"> Juego del semáforo</a>
+            <!-- <a href="semaforo.html" title="Juego del semaforo"> Juego del semáforo</a> -->
+            <a href="indexApp.php" title="Aplicación F1">Aplicación F1</a>
+            <a href="api.html" title="Localizacion de circuitos">Localizacion de circuitos</a>
+        </nav>
+    </header>
+    <!-- Migas de navegación -->
+    <p>Estás en: <a href="index.html" title="Inicioi F1Desktop">Inicio</a> >> <a href="juegos.html"
+            title="Juegos">Juegos</a> >> Juego de Memoria</p>
+
+
+    <main>
+        <button onclick="juegoMemoria.mostrarAyuda()">Ayuda</button>
+        <button onclick="juegoMemoria.mostrarTutorial()">Tutorial</button>
+        <button onclick="juegoMemoria.resetGame()">Reiniciar</button>
+        <aside>
+            <!-- Aquí irá la ayuda-->
+        </aside>
+
+        <h2>Juego de Memoria</h2>
+        <article>
+            <!-- Mensaje de felicidades-->
+        </article>
+        <section>
+            <!-- Las cartas serán generadas aquí -->
+        </section>
+    </main>
+
+    <script>
+        const juegoMemoria = new Memoria();
+        // Crear las cartas cuando la página se cargue
+        //window.onload = () => {
+        //    const juegoMemoria = new Memoria();
+        //};
+    </script>
+
+</body>
+
+</html>
